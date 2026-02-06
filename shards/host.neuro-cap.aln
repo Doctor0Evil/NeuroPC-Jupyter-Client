@@ -1,0 +1,6 @@
+[capability]
+module_id     = "jupyter-notebook"
+mode          = "suggestonly"
+actuation     = "neveractuate"
+max_scope     = "aggregated-metrics"
+allow_raw_dream_slices = false
