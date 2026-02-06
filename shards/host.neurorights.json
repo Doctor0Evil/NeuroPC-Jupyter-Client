@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "forbidden_domains": ["employment", "housing", "credit", "insurance"],
+  "storage_scopes": {
+    "local-vault-only": {
+      "export_allowed": false
+    }
+  }
+}
