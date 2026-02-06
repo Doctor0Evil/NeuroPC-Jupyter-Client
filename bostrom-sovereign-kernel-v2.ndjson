@@ -1,0 +1,1 @@
+{"host_id":"bostrom-neuropc-host-1","kernel_version":"v2","neurofs_index":"neurofs-index.aln","guard_pipeline":["roh_guard","neurorights_guard","stake_guard","donutloop_logger"],"jupyter_module_id":"jupyter-notebook"}
