@@ -1,0 +1,20 @@
+# neurofs-index.aln
+# Declarative index of host-bound shards and capabilities for the Jupyter client.
+
+[paths]
+rohmodel      = "shards/host.rohmodel.aln"
+stake         = "shards/host.stake.aln"
+neurorights   = "shards/host.neurorights.json"
+neuro_cap     = "shards/host.neuro-cap.aln"
+evolve_log    = "shards/host.evolve.jsonl"
+donutloop_log = "shards/host.donutloop.aln"
+biosession    = "shards/host.biosession.aln"
+ocpulog       = "shards/host.ocpulog"
+ocpuenv       = "shards/host.ocpuenv"
+vkernel       = "shards/host.vkernel.aln"
+
+[client.jupyter]
+module_id    = "jupyter-notebook"
+capability   = "suggestonly"
+actuation    = "neveractuate"
+storagescope = "local-vault-only"
