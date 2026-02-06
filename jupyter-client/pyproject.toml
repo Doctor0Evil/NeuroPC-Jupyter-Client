@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuropc-jupyter-client"
+version = "0.1.0"
+description = "NeuroPC Jupyter client for sovereign data/guardrail plane"
+requires-python = ">=3.9"
+dependencies = ["jupyter", "matplotlib", "pandas"]
+
+[project.optional-dependencies]
+dev = ["mypy", "ruff"]
